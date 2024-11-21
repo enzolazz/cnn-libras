@@ -13,17 +13,22 @@ Esse projeto tem como objetivo gerar um classificador com Redes Neurais Convoluc
 
 #Deep Learning #LIBRAS #InteligenciaArtificial #CNN #Python3 <br> <br>
 
-```
-INPUT => CONV => POOL => CONV => POOL => CONV => POOL => FC => FC => OUTPUT 
-```
+
+> INPUT => CONV => POOL => CONV => POOL => CONV => POOL => FC => FC => OUTPUT 
+
 
 #### Requisitos
-
-> conda env create -f environment.yml 
+```
+conda env create -f environment.yml 
+```
 
 #### Execução
-> conda activate cnn_libras  
-> python app_64x64x1.py 
+```
+conda activate cnn_libras
+```
+```
+python main/app_64x64x1.py
+```
 
 #### Estrutura dos arquivos
 
